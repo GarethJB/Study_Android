@@ -38,7 +38,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(SplashActivity.this, "5초지남", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SplashActivity.this, "토스트", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();//안보이게 처리
                 // SlpalshActivity => MainActivity로 화면 전환.
                 // Activity가 전환 ==> 통신 ==> Intent

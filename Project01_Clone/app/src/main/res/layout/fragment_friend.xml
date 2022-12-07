@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="120dp"/>
     <LinearLayout
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -42,14 +43,14 @@
            <TextView
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="김영문"
+               android:text="임주빈"
                android:textSize="20dp"
                android:textColor="#000"
                />
            <TextView
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="피곤쓰"
+               android:text="좋음"
                android:textSize="13dp"
                android:textColor="#BFBFBF"
                />
